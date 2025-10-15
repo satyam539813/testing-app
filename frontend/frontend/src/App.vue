@@ -320,13 +320,13 @@ const getRoute = async () => {
 
 .app {
   min-height: 100vh;
-  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  background: black;
   padding-bottom: 60px;
 }
 
 /* Header Section */
 .header {
-  background: rgba(255, 255, 255, 0.1);
+  background: black;
   backdrop-filter: blur(10px);
   padding: 40px 20px;
   text-align: center;
@@ -421,7 +421,8 @@ const getRoute = async () => {
 .submit-btn {
   width: 100%;
   padding: 16px;
-  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  background: black;
+  border-radius: 90px;
   color: white;
   border: none;
   border-radius: 12px;
